@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Drag and Drop Example</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h2>Items</h2>
+        <div class="item" draggable="true">Box</div>
+        <div>
+          <img
+            class="item"
+            draggable="true"
+            src="iphone.png"
+            alt="iphone"
+            height="80"
+            width="100"
+          />
+        </div>
+        <div>
+          <img
+            class="item"
+            draggable="true"
+            src="gift.png"
+            alt="gift box"
+            height="80"
+            width="100"
+          />
+        </div>
+      </div>
+
+      <div class="container">
+        <h2>Drop Here</h2>
+      </div>
+
+      <button onclick="resetContainers()">Reset</button>
+
+      <script src="script.js"></script>
+    </header>
+  </body>
+</html>
